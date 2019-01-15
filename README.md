@@ -1,22 +1,22 @@
-# Stimulus Starter
+# Modern Multi Page App
 
-A preconfigured blank slate for exploring [Stimulus](https://github.com/stimulusjs/stimulus). Jump to [The Stimulus Handbook](https://stimulusjs.org/handbook/introduction) for an introduction.
+This repo contains a reference implementation of a modern multi page application
 
----
+## Getting Started
 
-We recommend [remixing `stimulus-starter` on Glitch](https://glitch.com/edit/#!/import/github/stimulusjs/stimulus-starter) so you can work entirely in your browser without installing anything:
+### Install Dependencies
 
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/stimulusjs/stimulus-starter)
+`yarn install`
 
-Or, if you'd prefer to work from the comfort of your own text editor, you'll need to clone and set up `stimulus-starter`:
+### Start Application
+
+`yarn start`
+
+### From The Top
 
 ```
-$ git clone https://github.com/stimulusjs/stimulus-starter.git
+$ git clone https://github.com/themodernmpa/stimulus-starter.git
 $ cd stimulus-starter
 $ yarn install
 $ yarn start
 ```
-
----
-
-© 2019 Basecamp, LLC.
