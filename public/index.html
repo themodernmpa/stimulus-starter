@@ -49,13 +49,13 @@
           </div>
           <div class="col-lg-4 mb-4">
             <div class="card border-primary h-100">
-              <div class="card-body align-items-start">
+              <div class="card-body align-items-start" data-controller="todo-create">
                 <h4 class="card-title text-primary">Add/Edit</h4>
                 <p class="card-text">
                   <textarea class="" rows="10" cols="30">
                     </textarea>
                 </p>
-                <a href="#" class="btn btn-primary mt-auto">Create</a>
+                <a href="#" class="btn btn-primary mt-auto" data-action="click->todo-create#create">Create</a>
               </div>
             </div>
           </div>
